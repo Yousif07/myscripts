@@ -1,0 +1,11 @@
+# Show Network Status
+echo "Network Status:"
+ip addr show
+
+# Perform DNS Lookup
+echo "Performing DNS Lookup (example.com):"
+dig example.com
+
+# Check DNS Service Status
+echo "DNS Service Status:"
+systemctl status named.service
